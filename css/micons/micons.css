@@ -24,6 +24,13 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.fa-font:before {
+    font-family: roboto;
+    color: #ffffff;
+    font-size: 1.3em;
+    content: "k";
+}
+
 .icon-align-center:before {
     content: "\e900";
 }
