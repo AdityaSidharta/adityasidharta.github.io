@@ -101,7 +101,7 @@ a:hover, a:focus, a:active {
  * ------------------------------------------------------------------- 
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "poppins-light", sans-serif;
+	font-family: "poppins-semibold", sans-serif;
 	color: #313131;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -2426,6 +2426,13 @@ header .logo a {
 }
 .contact-info h5 {
 	color: #FF0077;
+}
+.contact-info a {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-info p {
+	color: rgba(255, 255, 255, 0.6);
 }
 
 /**
