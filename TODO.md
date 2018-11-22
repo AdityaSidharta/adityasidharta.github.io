@@ -1,2 +1,1 @@
 - [] Add background to other sections
-- [] Add Google Analytics
