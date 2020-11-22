@@ -1,5 +1,5 @@
 # adityasidharta.com
-Website design 2018
+Aditya Sidharta's Personal Website
 
 Sources and Credits:
 
