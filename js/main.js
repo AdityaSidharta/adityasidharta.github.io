@@ -47,14 +47,15 @@
 	$("#owl-slider").owlCarousel({
         navigation: true,
         pagination: true,
-        itemsCustom : [
-	        [0, 1],
-	        [700, 1],
-	        [960, 1]
-	     ],
+		items: 1,
+		itemsDesktop: [1024, 1],
+		itemsDesktopSmall: [900, 1],
+		itemsTablet: [600, 1],
+		itemsMobile: [320, 1],
         navigationText: true,
 		autoPlay: 3000,
-		stopOnHover : true
+		stopOnHover : true,
+		responsiveBaseElement: 'body',
     });
 
 
