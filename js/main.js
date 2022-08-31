@@ -45,14 +45,12 @@
 	/* Owl Carousel
 	------------------------------------------------------ */ 
 	$("#owl-slider").owlCarousel({
-        navigation: false,
+        nav: false,
         pagination: true,
-        itemsCustom : [
-	        [0, 1],
-	        [700, 2],
-	        [960, 3]
-	     ],
-        navigationText: false
+        items : 1,
+        navigationText: false,
+		autoPlay: 3000,
+		stopOnHover : true
     });
 
 
