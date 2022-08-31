@@ -47,7 +47,11 @@
 	$("#owl-slider").owlCarousel({
         nav: false,
         pagination: true,
-        items : 1,
+        itemsCustom : [
+	        [0, 1],
+	        [700, 1],
+	        [960, 1]
+	     ],
         navigationText: false,
 		autoPlay: 3000,
 		stopOnHover : true

@@ -2142,6 +2142,7 @@ header .logo a {
 .services-content {
 	max-width: 800px;
 }
+
 .services-list {
 	margin-top: 1.2rem;
 	text-align: center;
@@ -2152,20 +2153,21 @@ header .logo a {
 }
 .services-list .icon {
 	display: inline-block;
+	margin-left: 2.1rem;
+	margin-right: 2.1rem;
 	margin-bottom: 2.1rem;
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color: #45AEA5;
+	color: #0f3d39;
 }
 .services-list h3 {
-	color: black;
+	color: rgb(70, 70, 70);
 }
-.services-list h5 {
-	color: black;
-}
-.services-list .desc {
-	color: black;
+
+.services-list p {
+	color: rgb(124, 124, 124);
+	font-family: "poppins-regular", sans-serif;
 }
 
 /* pagination */
