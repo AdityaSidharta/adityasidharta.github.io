@@ -45,14 +45,17 @@
 	/* Owl Carousel
 	------------------------------------------------------ */ 
 	$("#owl-slider").owlCarousel({
-        navigation: false,
+        navigation: true,
         pagination: true,
-        itemsCustom : [
-	        [0, 1],
-	        [700, 2],
-	        [960, 3]
-	     ],
-        navigationText: false
+		items: 1,
+		itemsDesktop: [1024, 1],
+		itemsDesktopSmall: [900, 1],
+		itemsTablet: [600, 1],
+		itemsMobile: [320, 1],
+        navigationText: true,
+		autoPlay: 3000,
+		stopOnHover : true,
+		responsiveBaseElement: 'body',
     });
 
 
